@@ -1,0 +1,17 @@
+<html><body>
+
+<form method=post action='search.php'>
+<p>
+    <input type=hidden name=todo value=search />
+    <span class="TextType1">Enter the keyword(s) you would like to use:</span><br/>
+    <input name=query type=text size="42" />
+    <input type=submit value=Search />
+    <br />
+  <input type ="radio" name="type" value="any" checked />
+      Match anywhere &nbsp;&nbsp;
+  <input type="radio" name="type" value="exact" />
+      Exact Match &nbsp;&nbsp;
+    <input type="radio" name="type" value="all" />
+        Match All
+</p>
+</body></html>
